@@ -1,0 +1,7 @@
+*~
+.sbt_completion_cache
+
+project/
+target/
+.idea
+
