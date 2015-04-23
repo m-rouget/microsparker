@@ -2,6 +2,9 @@
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
+import spray.json._
+import DefaultJsonProtocol._ // if you don't supply your own Protocol (see below)
+
 
 object SimpleApp {
   def main(args: Array[String]) {

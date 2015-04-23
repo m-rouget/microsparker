@@ -1,0 +1,32 @@
+-----------------------------------------------------------
+- ATLOG format specification
+-
+-----------------------------------------------------------
+
+
+-----------------------------------------------------------
+JSON format
+
+
+{
+    "origin"  : "string",
+    "service" : "string",
+    "date"    : "ISO 8601 timestamp"
+    "id"      : "some-id"
+    "infos"   : {
+        "key" : "value"
+    }
+}
+
+
+Data dictionnary
+-----------------------------------------------------------
+
+ORIGIN | SERVICE | INFO KEYS
+-------------------------------------------
+ALPHA  | ASTART  | type
+ALPHA  | ASTOP   | *none*
+BETA   | B1      | b_key
+BETA   | B2      | b_key
+BETA   | B3      | b_key
+
